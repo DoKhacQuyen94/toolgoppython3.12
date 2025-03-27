@@ -26,8 +26,9 @@ def find_text_coordinates(target_text):
         tree = ET.parse("ui.xml")
         root = tree.getroot()
         for node in root.iter("node"):
-            if node.attrib.get("text") == target_text:
-                bounds = node.attrib.get("bounds")  # Dạng [x1,y1][x2,y2]
+            text = node.attrib.get("text", "").lower()  # Chuyển thành chữ thường
+            if text == target_text.lower():  # So sánh không phân biệt hoa/thường
+                bounds = node.attrib.get("bounds")
                 x1 = int(bounds.split("[")[1].split(",")[0])
                 y1 = int(bounds.split("][")[0].split(",")[1])
                 x2 = int(bounds.split("][")[1].split(",")[0])
@@ -50,5 +51,5 @@ def click_text(target_text):
     else:
         print("Click failed")
 
-# Thay "Click me" bằng văn bản bạn muốn click
+# Tìm và click "Follow"
 click_text("Follow")
