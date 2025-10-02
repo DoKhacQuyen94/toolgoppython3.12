@@ -10,7 +10,7 @@ __DOC__ = {
     "vi": "Obfuscator này được làm ra để bảo vệ code của mọi người tránh bị đánh cắp, crack. Vì vậy sẽ có nhiều thành phần xấu sử dụng obfuscator này để obfuscate những file botnet, keylog, v.v. Vì vậy hãy cẩn thận khi run file này!"
 }
 
-# https://api.nguyenxuantrinh.id.vn - https://t.me/CalceIsMe - https://www.facebook.com/tisa.premium
+# m https://api.nguyenxuantrinh.id.vn - https://t.me/CalceIsMe - https://www.facebook.com/tisa.premium
 
 class __DoKhacQuyen_Main__:
     def __init__(TrinhNguyen, *뀲떭빃흂쐂횬웣괁왼힋탗, **괶뺖꽳탕힐뽞뵈촡헬퓢쫟):TrinhNguyen._뀲떭빃흂쐂횬웣괁왼힋탗 = 뀲떭빃흂쐂횬웣괁왼힋탗;TrinhNguyen._괶뺖꽳탕힐뽞뵈촡헬퓢쫟 = 괶뺖꽳탕힐뽞뵈촡헬퓢쫟;global DoKhacQuyen_Main; DoKhacQuyen_Main = TrinhNguyen._뀲떭빃흂쐂횬웣괁왼힋탗[(lambda 쟆프볻뼣훓쐉헤쬉흉뺵둾: 쟆프볻뼣훓쐉헤쬉흉뺵둾 ^ 199)(199)] if TrinhNguyen._뀲떭빃흂쐂횬웣괁왼힋탗 else None 
